@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "AmountInWords",
+    "description": "Converts an amount in numbers to a string.",
+    "author": "Ali Nasser <ali@shipblu.com>",
+    "params": [
+      {
+        "name": "x",
+        "displayName": "x",
+        "type": "number"
+      },
+      {
+        "name": "unit",
+        "displayName": "unit",
+        "type": "string"
+      },
+      {
+        "name": "subunit",
+        "displayName": "subunit",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
